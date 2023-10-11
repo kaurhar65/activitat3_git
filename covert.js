@@ -1,5 +1,5 @@
 function convertirCF() {
-    let CF = prompt("A què vols convertir C/F?");
+    let CF = prompt("A què vols convertir C / F?");
     let temp = parseFloat(prompt("Temperatura:"));
     if( CF.toUpperCase() == "F" ){
         let cent = (temp-32)/(9/5);
